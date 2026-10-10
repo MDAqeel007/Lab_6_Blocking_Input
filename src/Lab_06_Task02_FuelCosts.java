@@ -58,9 +58,9 @@ public class Lab_06_Task02_FuelCosts
         } while (!validPrice);
 
         costtodrive100miles = (100.0 / Fuelefficiencymilespergallon) * priceofgaspergallon;
-        System.out.printf("The cost to drive 100 miles is $%.2f%n", costtodrive100miles);
+        System.out.println("The cost to drive 100 miles is " + costtodrive100miles);
 
         fulltankMiles = gallonsofGasintank * Fuelefficiencymilespergallon;
-        System.out.printf("Full tank of gas miles is %.2f miles%n", fulltankMiles);
+        System.out.println("Full tank of gas miles is " + fulltankMiles);
     }
 }
